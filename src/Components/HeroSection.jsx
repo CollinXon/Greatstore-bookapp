@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import {Teenager} from "src/assets/Teenager in glasses reading book on floor.png";
-import {George} from "src/assets/rr.svg" 
-import {Prophet} from "src/assets/the prophet.svg"
-import {Underground} from "src/assets/undergroun.svg" 
-import {Tolks} from "src/assets/tolk.svg"
+import Teenager from "../assets/Teenager in glasses reading book on floor.png";
+import George from "../assets/rr.svg" 
+import Prophet from "../assets/the prophet.svg"
+import Underground from "../assets/undergroun.svg" 
+import Tolks from "../assets/tolk.svg"
 
 
 

@@ -1,6 +1,6 @@
-import {Diversity} from "src/assets/diversity_2.svg"
-import {Globe} from "src/assets/globe.svg"
-import {EditorChoice} from "src/assets/editor_choice.svg" 
+import Diversity from "../assets/diversity_2.svg"
+import Globe from "../assets/globe.svg"
+import EditorChoice from "../assets/editor_choice.svg" 
 
 
 export const ConnectSection = ()=>{
@@ -10,7 +10,7 @@ return (
 <section className="p-8 w-3/4  ml-28">
       <div className="flex justify-center space-x-8">
         <div className=" flex flex-col text-center place-items-center">
-            <img src= {Diversity}  className="w-8"/>
+            <img src={Diversity} className="w-8"/>
           <h2 className="text-lg font-bold">Join Our Community</h2>
           <p className="text-sm">Connect with fellow book lovers, 
 attend exclusive events, and 

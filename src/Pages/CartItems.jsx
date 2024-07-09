@@ -1,8 +1,8 @@
 import React from "react"
 
-import {Ux} from 'src/assets/Book List/ux.png'
-import {Crime} from 'src/assets/Book List/crime.png'
-
+import Ux from '../assets/Book List/ux.png'
+import Crime from '../assets/Book List/crime.png'
+import Mask from '../assets/mask-group.png'
  
 
 
@@ -12,7 +12,7 @@ import {Crime} from 'src/assets/Book List/crime.png'
       {/* Header */}
       <header className="flex justify-between place-self-center items-center w-11/12 bg-white p-4 rounded shadow">
         <div className="relative w-full max-w-xs ">
-          <img src=  "public/mask-group.png" alt="Mask Group" className="absolute top-1 left-6"/>
+          <img src=  {Mask} alt="Mask Group" className="absolute top-1 left-6"/>
           <input type="text" placeholder="Search" className="border rounded-md py-2 px-4 pl-10 w-[600px] ml-[150px]  " />
           
           <i className="fa fa-search absolute left-[165px] top-3 text-gray-500 "></i>

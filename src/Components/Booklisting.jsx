@@ -1,11 +1,11 @@
-import {Ux} from 'src/assets/Book List/ux.png'
-import {Crime} from 'src/assets/Book List/crime.png'
-import {Arrows} from 'src/assets/Book List/achebe arrow.png'
-import {AroundNeck} from 'src/assets/Book List/adichie.png'
-import {AnimalFarm} from 'src/assets/Book List/animal farm.png'
-import {AmClub} from 'src/assets/Book List/5am.png'
-import {HarryPotter} from 'src/assets/Book List/harry.png'
-import {Trial} from 'src/assets/Book List/kafka tr.png'
+import Ux from '../assets/Book List/ux.png'
+import Crime from '../assets/Book List/crime.png'
+import Arrows from '../assets/Book List/achebe arrow.png'
+import AroundNeck from '../assets/Book List/adichie.png'
+import AnimalFarm from '../assets/Book List/animal farm.png'
+import AmClub from '../assets/Book List/5am.png'
+import HarryPotter from '../assets/Book List/harry.png'
+import Trial from '../assets/Book List/kafka tr.png'
 
 export const BookListing =()=>{
 
@@ -15,25 +15,25 @@ export const BookListing =()=>{
             title: 'UX and UI Strategy',
             author: 'Pamala B. Deacon',
             price: '₦5,000',
-            image: {Ux},
+            image: Ux,
           },
           {
             title: 'Crime and Punishment',
             author: 'Fyodor Dostoyevsky',
             price: '₦7,000',
-            image:  {Crime} ,
+            image:  Crime ,
           },
           
           {title: 'Arrow of God',
           author: 'Chinua Achebe',
           price: '₦6,500',
-          image: {Arrows},
+          image: Arrows,
         },
         
         {title: 'Around Your Neck',
         author: 'Chimamanda Ngozi Adichie',
         price: '₦5,000',
-        image: {AroundNeck} ,
+        image: AroundNeck ,
       },
 
 
@@ -41,14 +41,14 @@ export const BookListing =()=>{
       {title: 'Animal Farm',
       author: 'George Orwell',
       price: '₦6,000',
-      image:{AnimalFarm} ,
+      image:AnimalFarm ,
     },
 
 
     {title: 'The 5am Club',
     author: 'Robin Sharma',
     price: '₦4,000',
-    image: {AmClub} ,
+    image: AmClub ,
   },
 
 
@@ -57,7 +57,7 @@ export const BookListing =()=>{
   {title: 'Harry Potter',
   author: 'J.K Rowling',
   price: '₦7,000',
-  image:  {HarryPotter} ,
+  image:  HarryPotter ,
 },
 
 
@@ -65,7 +65,7 @@ export const BookListing =()=>{
 {title: 'The Trial',
 author: 'Frank Kafka',
 price: '₦4,500',
-image: {Trial}  ,
+image: Trial  ,
 },
 
 

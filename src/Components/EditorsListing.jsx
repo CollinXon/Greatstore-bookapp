@@ -1,11 +1,11 @@
-import {Echo} from 'src/assets/Book List/echo.png'
-import {Fall} from 'src/assets/Book List/fall camus.png'
-import {Idiot} from 'src/assets/Book List/history of map.png'
-import {Geography} from 'src/assets/Book List/geography.png'
-import {Storm} from 'src/assets/Book List/rr.png'
-import {Finish} from  'src/assets/Book List/finish.png'
-import {Gaiman} from 'src/assets/Book List/gaiman.png'
-import {Demons} from  'src/assets/Book List/da.png'
+import Echo from '../assets/Book List/echo.png'
+import Fall from '../assets/Book List/fall camus.png'
+import Idiot from '../assets/Book List/history of map.png'
+import Geography from '../assets/Book List/geography.png'
+import Storm from '../assets/Book List/rr.png'
+import Finish from  '../assets/Book List/finish.png'
+import Gaiman from '../assets/Book List/gaiman.png'
+import Demons from  '../assets/Book List/da.png'
 
 export const EditorsListing =()=>{
 
@@ -16,7 +16,7 @@ const Books = [
     {title: 'And The Mountains',
     author: 'Khaled Hosseini',
     price: '₦6,000',
-    image:  {Echo},
+    image:  Echo,
     },
     
     
@@ -24,43 +24,43 @@ const Books = [
     {title: 'The Fall',
     author: 'Albert Camus',
     price: '₦7,000',
-    image: {Fall} },
+    image: Fall },
     
     
     {title: 'The Idiot',
     author: 'Fyodor Dostoyevsky',
     price: '₦6,000',
-    image:{Idiot} ,
+    image:Idiot ,
     },
     
     {title: 'Geography of World',
     author: 'Simon Adams',
     price: '₦7,000',
-    image: {Geography} ,
+    image: Geography ,
     },
     
     {title: 'A Storm of Swords',
     author: 'George R.R Martin',
     price: '₦7,500',
-    image: {Storm} ,
+    image: Storm ,
     },
     
     {title: 'Finish What You Start',
     author: 'Peter Hollins',
     price: '₦4,500',
-    image: {Finish},
+    image: Finish,
     },
     
     {title: 'NeverWhere',
     author: 'Neil Gaiman',
     price: '₦5,500',
-    image: {Gaiman},
+    image: Gaiman,
     },
     
     {title: 'Demons',
     author: 'Fyodor Dostoyevsky',
     price: '₦5,500',
-    image:{Demons},
+    image: Demons,
     }
 
 ]
