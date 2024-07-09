@@ -3,6 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import {Teenager} from "public/assets/Teenager in glasses reading book on floor.png";
+import {George} from "public/assets/rr.svg" 
+import {Prophet} from "public/assets/the prophet.svg"
+import {Underground} from "public/assets/undergroun.svg" 
+import {Tolks} from "public/assets/tolk.svg"
 
 
 
@@ -44,7 +49,7 @@ const slides = [
               <button className="bg-white text-[#FF6636] px-6 py-4 rounded-lg">Shop Now</button>
               </div>
 <div className='flex w-1/2 '>
-              <img src="public/assets/Teenager in glasses reading book on floor.png" alt="Logo" className="object-contain" />
+              <img src= {Teenager}  alt="Logo" className="object-contain" />
                </div>
                
             </main>
@@ -101,13 +106,13 @@ const slides = [
         
         <div  className="w-1/2 flex justify-center place-items-center object-cover ">
             
-        <img src="public/assets/rr.svg" alt="George Martin" className=" w-40 h-60 object-cover  "/>
+        <img src={George} alt="George Martin" className=" w-40 h-60 object-cover  "/>
         <div className="flex flex-col ">
-        <img src="public/assets/the prophet.svg" alt="Prophet" className="w-40 h-60 object-cover   "/>
-        <img src="public/assets/undergroun.svg" alt="Underground"  className=" w-40 h-60 object-cover    "/>
+        <img src= {Prophet} alt="Prophet" className="w-40 h-60 object-cover   "/>
+        <img src= {Underground} alt="Underground"  className=" w-40 h-60 object-cover    "/>
         </div>
         
-        <img src="public/assets/tolk.svg" alt="Tolks" className=" w-40 h-60 object-cover "/>
+        <img src= {Tolks} alt="Tolks" className=" w-40 h-60 object-cover "/>
         
         </div>
         

@@ -1,4 +1,11 @@
-
+import {Ux} from 'public/assets/Book List/ux.png'
+import {Crime} from 'public/assets/Book List/crime.png'
+import {Arrows} from 'public/assets/Book List/achebe arrow.png'
+import {AroundNeck} from 'public/assets/Book List/adichie.png'
+import {AnimalFarm} from 'public/assets/Book List/animal farm.png'
+import {AmClub} from 'public/assets/Book List/5am.png'
+import {HarryPotter} from 'public/assets/Book List/harry.png'
+import {Trial} from 'public/assets/Book List/kafka tr.png'
 
 export const BookListing =()=>{
 
@@ -8,25 +15,25 @@ export const BookListing =()=>{
             title: 'UX and UI Strategy',
             author: 'Pamala B. Deacon',
             price: '₦5,000',
-            image: 'public/assets/Book List/ux.png',
+            image: {Ux},
           },
           {
             title: 'Crime and Punishment',
             author: 'Fyodor Dostoyevsky',
             price: '₦7,000',
-            image: 'public/assets/Book List/crime.png',
+            image:  {Crime} ,
           },
           
           {title: 'Arrow of God',
           author: 'Chinua Achebe',
           price: '₦6,500',
-          image: 'public/assets/Book List/achebe arrow.png',
+          image: {Arrows},
         },
         
         {title: 'Around Your Neck',
         author: 'Chimamanda Ngozi Adichie',
         price: '₦5,000',
-        image: 'public/assets/Book List/adichie.png',
+        image: {AroundNeck} ,
       },
 
 
@@ -34,14 +41,14 @@ export const BookListing =()=>{
       {title: 'Animal Farm',
       author: 'George Orwell',
       price: '₦6,000',
-      image: 'public/assets/Book List/animal farm.png',
+      image:{AnimalFarm} ,
     },
 
 
     {title: 'The 5am Club',
     author: 'Robin Sharma',
     price: '₦4,000',
-    image: 'public/assets/Book List/5am.png',
+    image: {AmClub} ,
   },
 
 
@@ -50,7 +57,7 @@ export const BookListing =()=>{
   {title: 'Harry Potter',
   author: 'J.K Rowling',
   price: '₦7,000',
-  image: 'public/assets/Book List/harry.png',
+  image:  {HarryPotter} ,
 },
 
 
@@ -58,30 +65,12 @@ export const BookListing =()=>{
 {title: 'The Trial',
 author: 'Frank Kafka',
 price: '₦4,500',
-image: 'public/assets/Book List/kafka tr.png',
+image: {Trial}  ,
 },
 
 
 
-/*
-{title: 'Crime and Punishment',
-author: 'Fyodor Dostoyevsky',
-price: '₦7,000',
-image: 'https://drive.google.com/drive/folders/1afPG8BEAc3v_CggrQnOHE5HV9oLc0qWu',
-},
 
-{title: 'Crime and Punishment',
-author: 'Fyodor Dostoyevsky',
-price: '₦7,000',
-image: 'https://drive.google.com/drive/folders/1afPG8BEAc3v_CggrQnOHE5HV9oLc0qWu',
-},
-
-{title: 'Crime and Punishment',
-author: 'Fyodor Dostoyevsky',
-price: '₦7,000',
-image: 'https://drive.google.com/drive/folders/1afPG8BEAc3v_CggrQnOHE5HV9oLc0qWu',
-},
-*/
 
     ]
 
