@@ -44,7 +44,7 @@ const slides = [
               <button className="bg-white text-[#FF6636] px-6 py-4 rounded-lg">Shop Now</button>
               </div>
 <div className='flex w-1/2 '>
-              <img src="src/assets/Teenager in glasses reading book on floor.png" alt="Logo" className="object-contain" />
+              <img src="public/assets/Teenager in glasses reading book on floor.png" alt="Logo" className="object-contain" />
                </div>
                
             </main>
@@ -101,13 +101,13 @@ const slides = [
         
         <div  className="w-1/2 flex justify-center place-items-center object-cover ">
             
-        <img src="src/assets/rr.svg" alt="George Martin" className=" w-40 h-60 object-cover  "/>
+        <img src="public/assets/rr.svg" alt="George Martin" className=" w-40 h-60 object-cover  "/>
         <div className="flex flex-col ">
-        <img src="src/assets/the prophet.svg" alt="Prophet" className="w-40 h-60 object-cover   "/>
-        <img src="src/assets/undergroun.svg" alt="Underground"  className=" w-40 h-60 object-cover    "/>
+        <img src="public/assets/the prophet.svg" alt="Prophet" className="w-40 h-60 object-cover   "/>
+        <img src="public/assets/undergroun.svg" alt="Underground"  className=" w-40 h-60 object-cover    "/>
         </div>
         
-        <img src="src/assets/tolk.svg" alt="Tolks" className=" w-40 h-60 object-cover "/>
+        <img src="public/assets/tolk.svg" alt="Tolks" className=" w-40 h-60 object-cover "/>
         
         </div>
         

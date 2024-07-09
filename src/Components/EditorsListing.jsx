@@ -7,7 +7,7 @@ const Books = [
     {title: 'And The Mountains',
     author: 'Khaled Hosseini',
     price: '₦6,000',
-    image: 'src/assets/Book List/echo.png',
+    image: 'public/assets/Book List/echo.png',
     },
     
     
@@ -15,43 +15,43 @@ const Books = [
     {title: 'The Fall',
     author: 'Albert Camus',
     price: '₦7,000',
-    image: 'src/assets/Book List/fall camus.png'},
+    image: 'public/assets/Book List/fall camus.png'},
     
     
     {title: 'The Idiot',
     author: 'Fyodor Dostoyevsky',
     price: '₦6,000',
-    image: 'src/assets/Book List/history of map.png',
+    image: 'public/assets/Book List/history of map.png',
     },
     
     {title: 'Geography of World',
     author: 'Simon Adams',
     price: '₦7,000',
-    image: 'src/assets/Book List/geography.png',
+    image: 'public/assets/Book List/geography.png',
     },
     
     {title: 'A Storm of Swords',
     author: 'George R.R Martin',
     price: '₦7,500',
-    image: 'src/assets/Book List/rr.png',
+    image: 'public/assets/Book List/rr.png',
     },
     
     {title: 'Finish What You Start',
     author: 'Peter Hollins',
     price: '₦4,500',
-    image: 'src/assets/Book List/finish.png',
+    image: 'public/assets/Book List/finish.png',
     },
     
     {title: 'NeverWhere',
     author: 'Neil Gaiman',
     price: '₦5,500',
-    image: 'src/assets/Book List/gaiman.png',
+    image: 'public/assets/Book List/gaiman.png',
     },
     
     {title: 'Demons',
     author: 'Fyodor Dostoyevsky',
     price: '₦5,500',
-    image: 'src/assets/Book List/da.png',
+    image: 'public/assets/Book List/da.png',
     }
 
 ]

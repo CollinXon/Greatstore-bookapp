@@ -8,25 +8,25 @@ export const BookListing =()=>{
             title: 'UX and UI Strategy',
             author: 'Pamala B. Deacon',
             price: '₦5,000',
-            image: 'src/assets/Book List/ux.png',
+            image: 'public/assets/Book List/ux.png',
           },
           {
             title: 'Crime and Punishment',
             author: 'Fyodor Dostoyevsky',
             price: '₦7,000',
-            image: 'src/assets/Book List/crime.png',
+            image: 'public/assets/Book List/crime.png',
           },
           
           {title: 'Arrow of God',
           author: 'Chinua Achebe',
           price: '₦6,500',
-          image: 'src/assets/Book List/achebe arrow.png',
+          image: 'public/assets/Book List/achebe arrow.png',
         },
         
         {title: 'Around Your Neck',
         author: 'Chimamanda Ngozi Adichie',
         price: '₦5,000',
-        image: 'src/assets/Book List/adichie.png',
+        image: 'public/assets/Book List/adichie.png',
       },
 
 
@@ -34,14 +34,14 @@ export const BookListing =()=>{
       {title: 'Animal Farm',
       author: 'George Orwell',
       price: '₦6,000',
-      image: 'src/assets/Book List/animal farm.png',
+      image: 'public/assets/Book List/animal farm.png',
     },
 
 
     {title: 'The 5am Club',
     author: 'Robin Sharma',
     price: '₦4,000',
-    image: 'src/assets/Book List/5am.png',
+    image: 'public/assets/Book List/5am.png',
   },
 
 
@@ -50,7 +50,7 @@ export const BookListing =()=>{
   {title: 'Harry Potter',
   author: 'J.K Rowling',
   price: '₦7,000',
-  image: 'src/assets/Book List/harry.png',
+  image: 'public/assets/Book List/harry.png',
 },
 
 
@@ -58,7 +58,7 @@ export const BookListing =()=>{
 {title: 'The Trial',
 author: 'Frank Kafka',
 price: '₦4,500',
-image: 'src/assets/Book List/kafka tr.png',
+image: 'public/assets/Book List/kafka tr.png',
 },
 
 

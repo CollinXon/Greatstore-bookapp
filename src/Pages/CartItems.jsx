@@ -9,7 +9,7 @@ import React from "react"
       {/* Header */}
       <header className="flex justify-between place-self-center items-center w-11/12 bg-white p-4 rounded shadow">
         <div className="relative w-full max-w-xs ">
-          <img src="src/assets/Mask group.svg" alt="Mask Group" className="absolute top-1 left-6"/>
+          <img src="public/assets/Mask group.svg" alt="Mask Group" className="absolute top-1 left-6"/>
           <input type="text" placeholder="Search" className="border rounded-md py-2 px-4 pl-10 w-[600px] ml-[150px]  " />
           
           <i className="fa fa-search absolute left-[165px] top-3 text-gray-500 "></i>
@@ -65,7 +65,7 @@ import React from "react"
                 {/* Cart Item 1 */}
                 <div className="flex  w-full items-center  border p-4  rounded">
                   <div className="flex items-center ml-[-18px]  place-items-start ">
-                  <img src="src/assets/Book List/ux.png" alt="Product Image" className="w-40 h-40 object-cover rounded  " />
+                  <img src="public/assets/Book List/ux.png" alt="Product Image" className="w-40 h-40 object-cover rounded  " />
                   <div className="ml-[-15px]">
                     <h3 className="text-md">UX and UI Strategy</h3>
                     <p className="text-gray-500 text-sm">Parrish B. Deacon</p>
@@ -88,7 +88,7 @@ import React from "react"
                 {/* Cart Item 2 */}
                 <div className="flex  items-center justify-between border p-4 rounded">
                   <div className=" flex items-center ml-[-18px]">
-                  <img src="src/assets/Book List/crime.png" alt="Product Image" className="w-40 h-40 object-cover rounded" />
+                  <img src="public/assets/Book List/crime.png" alt="Product Image" className="w-40 h-40 object-cover rounded" />
                   <div className="ml-[-15px]">
                     <h3 className="text-md ">Crime and Punishment</h3>
                     <p className="text-gray-500 text-sm">Fyodor Dostoevsky</p>
