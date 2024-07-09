@@ -1,14 +1,14 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
-import {Echo} from 'public/assets/Book List/echo.png'
-import {Fall} from 'public/assets/Book List/fall camus.png'
-import {Idiot} from 'public/assets/Book List/history of map.png'
-import {Geography} from 'public/assets/Book List/geography.png'
-import {Storm} from 'public/assets/Book List/rr.png'
-import {Finish} from  'public/assets/Book List/finish.png'
-import {Gaiman} from 'public/assets/Book List/gaiman.png'
-import {Demons} from  'public/assets/Book List/da.png'
+import {Echo} from 'src/assets/Book List/echo.png'
+import {Fall} from 'src/assets/Book List/fall camus.png'
+import {Idiot} from 'src/assets/Book List/history of map.png'
+import {Geography} from 'src/assets/Book List/geography.png'
+import {Storm} from 'src/assets/Book List/rr.png'
+import {Finish} from  'src/assets/Book List/finish.png'
+import {Gaiman} from 'src/assets/Book List/gaiman.png'
+import {Demons} from  'src/assets/Book List/da.png'
 
 
 

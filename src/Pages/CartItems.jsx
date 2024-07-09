@@ -1,7 +1,7 @@
 import React from "react"
-import {MaskGroup} from "public/assets/Mask group.svg"
-import {Ux} from 'public/assets/Book List/ux.png'
-import {Crime} from 'public/assets/Book List/crime.png'
+import {MaskGroup} from "src/assets/Mask group.svg"
+import {Ux} from 'src/assets/Book List/ux.png'
+import {Crime} from 'src/assets/Book List/crime.png'
 
  
 

@@ -1,6 +1,6 @@
-import {Diversity} from "public/assets/diversity_2.svg"
-import {Globe} from "public/assets/globe.svg"
-import {EditorChoice} from "public/assets/editor_choice.svg" 
+import {Diversity} from "src/assets/diversity_2.svg"
+import {Globe} from "src/assets/globe.svg"
+import {EditorChoice} from "src/assets/editor_choice.svg" 
 
 
 export const ConnectSection = ()=>{

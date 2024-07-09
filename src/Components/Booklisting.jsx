@@ -1,11 +1,11 @@
-import {Ux} from 'public/assets/Book List/ux.png'
-import {Crime} from 'public/assets/Book List/crime.png'
-import {Arrows} from 'public/assets/Book List/achebe arrow.png'
-import {AroundNeck} from 'public/assets/Book List/adichie.png'
-import {AnimalFarm} from 'public/assets/Book List/animal farm.png'
-import {AmClub} from 'public/assets/Book List/5am.png'
-import {HarryPotter} from 'public/assets/Book List/harry.png'
-import {Trial} from 'public/assets/Book List/kafka tr.png'
+import {Ux} from 'src/assets/Book List/ux.png'
+import {Crime} from 'src/assets/Book List/crime.png'
+import {Arrows} from 'src/assets/Book List/achebe arrow.png'
+import {AroundNeck} from 'src/assets/Book List/adichie.png'
+import {AnimalFarm} from 'src/assets/Book List/animal farm.png'
+import {AmClub} from 'src/assets/Book List/5am.png'
+import {HarryPotter} from 'src/assets/Book List/harry.png'
+import {Trial} from 'src/assets/Book List/kafka tr.png'
 
 export const BookListing =()=>{
 
