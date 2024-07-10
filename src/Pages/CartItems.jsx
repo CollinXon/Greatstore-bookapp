@@ -17,14 +17,14 @@ export const CartPage = () => {
           />
 
           <i className="fa fa-search absolute left-[165px] top-3 text-gray-500 "></i>
-          <button className="absolute right-[-630px] top-1/2 transform -translate-y-1/2 text-gray-500">
-            <i className="fas fa-user"></i>
+          <button className="absolute right-[-600px] top-1/2 transform -translate-y-1/2 text-gray-500 ">
+            <i className="fas fa-user  border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100 "></i>
           </button>
-          <button className="absolute  right-[-680px] top-1/2 transform -translate-y-1/2 text-gray-500">
-            <i className="fas fa-heart"></i>
+          <button className="absolute  right-[-660px] top-1/2 transform -translate-y-1/2 text-gray-500">
+            <i className="fas fa-heart  border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100"></i>
           </button>
           <button className="absolute right-[-720px] top-1/2 transform -translate-y-1/2 text-gray-500">
-            <i className="fas fa-shopping-cart"></i>
+            <i className="fas fa-shopping-cart  border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100"></i>
           </button>
         </div>
       </header>
@@ -32,9 +32,11 @@ export const CartPage = () => {
       <main className="bg-white mt-6 p-6 rounded shadow  ">
         <h1 className="text-5xl  mb-6 text-center">Cart</h1>
         <div className="flex  mb-14 ">
+          <a href="/">
           <button className="flex items-center space-x-2 text-gray-500">
             <i className="fas fa-arrow-left fa-2x mt-[-90px] "></i>
           </button>
+          </a>
         </div>
         <div className="flex w-full border-red-600 border-2 justify-center pt-4 ">
           <div className=" block justify-self-center text-lg  text-center mb-4 w-1/2  ">
