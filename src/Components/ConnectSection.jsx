@@ -7,8 +7,9 @@
 
   return (
 
-  <section className="p-8 w-3/4  ml-28">
-        <div className="flex justify-center space-x-8">
+  <div className="  md:flex  p-8 w-3/4  ml-28 mt-8 place-items-center space-x-8  ">
+       
+
           <div className=" flex flex-col text-center place-items-center">
               <img src={Diversity} className="w-8"/>
             <h2 className="text-lg font-bold">Join Our Community</h2>
@@ -30,9 +31,9 @@
   Bookstore. Curated collections for
   discerning readers</p>
           </div>
-        </div>
+       
 
-  </section>
+  </div>
 
 
   )

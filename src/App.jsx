@@ -4,10 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ProductListing } from "./Pages/ProductListing";
 import { CartPage } from "./Pages/CartItems";
 import { Checkout } from "./Pages/CheckOut";
+import { CartProvider } from './Context/CartContext';
 
 function App() {
   return (
-    <div>
+    <CartProvider>
+    <div className="font-inter" >
       <Router>
         <Routes>
           <Route path="/" element={<ProductListing />} />
@@ -19,6 +21,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    </CartProvider>
   );
 }
 

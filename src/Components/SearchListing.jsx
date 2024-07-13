@@ -105,7 +105,7 @@ export const MostSearched = () => {
 
   return (
     <section className="p-8">
-      <h2 className="text-2xl font-bold mb-4">Most Searched</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Most Searched</h2>
       <Slider {...settings}>
         {mostSearchedBooks.map((book, index) => (
           <div key={index} className="p-4">
