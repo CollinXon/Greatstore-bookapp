@@ -7,8 +7,8 @@ import George from "../assets/rr.svg";
 import Prophet from "../assets/the prophet.svg";
 import Underground from "../assets/undergroun.svg";
 import Tolks from "../assets/tolk.svg";
-import Mask from "../assets/mask-group.png"
-import Menu from "../assets/menu.png"
+import Mask from "../assets/mask-group.png";
+import Menu from "../assets/menu.png";
 
 const slides = [
   {
@@ -16,30 +16,33 @@ const slides = [
       <div className=" hidden md:flex  flex-col w-full px-8 bg-[#FFEEE8]   ">
         <header className=" flex w-11/12 p-4  ml-8  mt-10 justify-between">
           <div className=" w-[800px]  bg-white py-4 rounded shadow mt-[-20px] ">
-
-          <img src={Mask} alt="Mask Group" className="absolute top-[55px] left-28 " />
-          <div className="relative">
-          <input
-            type="text"
-            placeholder="Search"
-            className="border-none outline-none rounded-lg py-2  pl-10 w-[480px] ml-[120px] bg-slate-100   "
-          />
-<button>
-          <i className="fa fa-search   absolute left-[135px] top-3 text-gray-500 "></i>
-          </button >
-          <button className="absolute right-[140px]  top-1/2 transform -translate-y-1/2 text-gray-500">
-            <i className="fas fa-user border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100"></i>
-          </button>
-          <button className="absolute right-[85px]  top-1/2 transform -translate-y-1/2 text-gray-500 ">
-            <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
-          </button>
-          <a path="/cart">
-          <button className="absolute right-[30px] top-1/2 transform -translate-y-1/2 ">
-            <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
-          </button>
-          </a>
-        </div>
-        </div>
+            <img
+              src={Mask}
+              alt="Mask Group"
+              className="absolute top-[55px] left-28 "
+            />
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search"
+                className="border-none outline-none rounded-lg py-2  pl-10 w-[480px] ml-[120px] bg-slate-100   "
+              />
+              <button>
+                <i className="fa fa-search   absolute left-[135px] top-3 text-gray-500 "></i>
+              </button>
+              <button className="absolute right-[140px]  top-1/2 transform -translate-y-1/2 text-gray-500">
+                <i className="fas fa-user border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100"></i>
+              </button>
+              <button className="absolute right-[85px]  top-1/2 transform -translate-y-1/2 text-gray-500 ">
+                <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
+              </button>
+              <a path="/cart">
+                <button className="absolute right-[30px] top-1/2 transform -translate-y-1/2 ">
+                  <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
+                </button>
+              </a>
+            </div>
+          </div>
           <div className="space-x-4 flex mb-2 ">
             <button className="bg-orange-500 text-white px-8   rounded-lg">
               Sign Up
@@ -55,8 +58,7 @@ const slides = [
             <h1 className="text-5xl font-bold mb-3  ">
               Discover Your <br />
               Next Great Read
-            </h1 >
-            
+            </h1>
 
             <p className="text-lg mb-5  ">
               Explore a world of stories, knowledge, and inspiration at Goodness
@@ -71,9 +73,7 @@ const slides = [
           <div className="w-full md:w-1/2 ">
             <img src={Teenager} alt="Logo" className="object-contain  " />
           </div>
-          
         </main>
-        
       </div>
     ),
   },
@@ -83,28 +83,31 @@ const slides = [
       <div className=" hidden md:flex flex-col justify-items-center mt-6  w-full   bg-gradient-to-r from-pink-50 to-white ">
         <header className=" flex w-11/12 p-4 ml-8 mt-4 justify-between">
           <div className=" w-[900px]  bg-white py-3 rounded shadow mt-[-20px] ">
-
-          <img src={Mask} alt="Mask Group" className="absolute top-[60px] left-20 " />
-          <div className="relative">
-          <input
-            type="text"
-            placeholder="Search"
-            className="border-none outline-none rounded-lg py-2  pl-10 w-[580px] ml-[120px] bg-slate-100   "
-          />
-<button>
-          <i className="fa fa-search  absolute left-[135px] top-3 text-gray-500 "></i>
-          </button >
-          <button className="absolute right-[140px]  top-1/2 transform -translate-y-1/2 text-gray-500">
-            <i className="fas fa-user border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100"></i>
-          </button>
-          <button className="absolute right-[85px]  top-1/2 transform -translate-y-1/2 text-gray-500 ">
-            <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
-          </button>
-          <button className="absolute right-[30px] top-1/2 transform -translate-y-1/2 ">
-            <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
-          </button>
-        </div>
-        </div>
+            <img
+              src={Mask}
+              alt="Mask Group"
+              className="absolute top-[60px] left-20 "
+            />
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search"
+                className="border-none outline-none rounded-lg py-2  pl-10 w-[580px] ml-[120px] bg-slate-100   "
+              />
+              <button>
+                <i className="fa fa-search  absolute left-[135px] top-3 text-gray-500 "></i>
+              </button>
+              <button className="absolute right-[140px]  top-1/2 transform -translate-y-1/2 text-gray-500">
+                <i className="fas fa-user border-solid border-gray-500 border-2 rounded-md p-2  bg-slate-100"></i>
+              </button>
+              <button className="absolute right-[85px]  top-1/2 transform -translate-y-1/2 text-gray-500 ">
+                <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
+              </button>
+              <button className="absolute right-[30px] top-1/2 transform -translate-y-1/2 ">
+                <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
+              </button>
+            </div>
+          </div>
           <div className="space-x-4 flex mt-[-5px] mr-[-25px] ">
             <button className="bg-orange-500 text-white px-5  rounded-lg">
               Sign Up
