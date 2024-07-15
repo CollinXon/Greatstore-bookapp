@@ -77,7 +77,7 @@ const BookListing = () => {
 
   return (
     <div>
-      {" "}
+      
       {loading && <h1 className="loader"></h1>}
       <div className=" bg-primary grid grid-cols-2  md:grid-cols-5 gap-6  mt-12 justify-evenly">
         {products.slice(startIndex, endIndex).map((product, index) => (
@@ -95,7 +95,7 @@ const BookListing = () => {
                 {product.description}
               </p>
 
-              <p className="text-lg text-black  ">{product.price}</p>
+              <p className="text-lg text-black  "> ₦{product.price}</p>
               <button
                 className=" text-nowrap md: bg-orange-500  text-white flex flex-wrap px-8 py-2 rounded-md "
                 onClick={() => handleAddToCart(product)}

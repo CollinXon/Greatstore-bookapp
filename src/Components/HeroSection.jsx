@@ -9,6 +9,7 @@ import Underground from "../assets/undergroun.svg";
 import Tolks from "../assets/tolk.svg";
 import Mask from "../assets/mask-group.png";
 import Menu from "../assets/menu.png";
+import { Link } from "react-router-dom";
 
 const slides = [
   {
@@ -36,11 +37,11 @@ const slides = [
               <button className="absolute right-[85px]  top-1/2 transform -translate-y-1/2 text-gray-500 ">
                 <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
               </button>
-              <a path="/cart">
+              <Link to="/cart ">
                 <button className="absolute right-[30px] top-1/2 transform -translate-y-1/2 ">
                   <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="space-x-4 flex mb-2 ">
@@ -103,9 +104,11 @@ const slides = [
               <button className="absolute right-[85px]  top-1/2 transform -translate-y-1/2 text-gray-500 ">
                 <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
               </button>
+              <Link to="/cart">
               <button className="absolute right-[30px] top-1/2 transform -translate-y-1/2 ">
                 <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
               </button>
+              </Link>
             </div>
           </div>
           <div className="space-x-4 flex mt-[-5px] mr-[-25px] ">
@@ -123,7 +126,7 @@ const slides = [
             <div className=" block  w-1/2 mt-14  ">
               <h1 className="font-bold text-5xl ">
                 Discover Your <br />
-                Next Great Read{" "}
+                Next Great Read
               </h1>
 
               <p className="text-lg">
