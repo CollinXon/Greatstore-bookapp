@@ -81,13 +81,13 @@ const slides = [
 
   {
     content: (
-      <div className=" hidden md:flex flex-col justify-items-center mt-6  w-full   bg-gradient-to-r from-pink-50 to-white ">
-        <header className=" flex w-11/12 p-4 ml-8 mt-4 justify-between">
-          <div className=" w-[900px]  bg-white py-3 rounded shadow mt-[-20px] ">
+      <div className=" hidden md:flex flex-col justify-items-center   w-full   bg-gradient-to-r from-pink-50 to-white ">
+        <header className=" flex w-11/12 p-4 ml-8 mt-4 justify-between ">
+          <div className=" w-[900px]  bg-white py-3 rounded shadow-lg mt-[-20px] ">
             <img
               src={Mask}
               alt="Mask Group"
-              className="absolute top-[60px] left-20 "
+              className="absolute top-[25px] left-20 "
             />
             <div className="relative">
               <input
@@ -111,11 +111,11 @@ const slides = [
               </Link>
             </div>
           </div>
-          <div className="space-x-4 flex mt-[-5px] mr-[-25px] ">
-            <button className="bg-orange-500 text-white px-5  rounded-lg">
+          <div className="space-x-4 flex items-center mr-[-25px] ">
+            <button className="bg-orange-500 text-white px-7 py-2  rounded-lg">
               Sign Up
             </button>
-            <button className="border border-orange-500 text-orange-500 px-8 rounded-lg">
+            <button className="border border-orange-500 text-orange-500 px-7 py-2 rounded-lg">
               Login
             </button>
           </div>

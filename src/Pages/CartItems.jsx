@@ -17,8 +17,8 @@ export const CartPage = () => {
   console.log('Cart items:', cartItems);
 
   return (
-    <div className="flex-col w-full p-4 flex-wrap bg-[#F9F9FB]">
-      <header className="flex justify-between items-center w-full sm:w-11/12 bg-white p-4 rounded shadow">
+    <div className="flex-col  w-full p-2 sm:p-4 flex-wrap bg-[#F9F9FB] overflow-x-hidden ">
+      <header className="flex justify-between items-center w-full  bg-white p-4 rounded shadow">
         <div className="relative w-full">
           <input
             type="text"
@@ -29,58 +29,62 @@ export const CartPage = () => {
         </div>
       </header>
 
-      <main className="bg-white mt-6 p-6 rounded shadow w-full sm:w-11/12">
+      <main className="bg-white mt-6 p-3 md:p-6 rounded shadow w-full ">
         <h1 className="text-2xl sm:text-5xl mb-6 text-center">Cart</h1>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          <div className="col-span-1 lg:col-span-8">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
+          <div className="col-span-1 sm:col-span-8">
             <div className="bg-white shadow-md rounded-md p-4">
-              <div className="border-b pb-2 mb-4 hidden lg:flex">
-                <div className="w-full lg:flex lg:justify-between">
-                  <h2 className="text-lg font-semibold">Shopping Cart</h2>
-                  <div className="text-lg font-semibold">Product</div>
-                  <div className="text-lg font-semibold">Quantity</div>
-                  <div className="text-lg font-semibold">Price</div>
-                  <div className="text-lg font-semibold">Subtotal</div>
+              <div className="border-b pb-2 mb-4 flex">
+                <div className="w-full flex  text-[10px] sm:text-lg font-semibold">
+                
+                  
+                  <div className="flex flex-1">Product</div>
+                  <div className='flex flex-1 gap-8 sm:gap-20 lg:gap-28 xl:gap-16 '>
+                  <div className="">Quantity</div>
+                  <div className="">Price</div>
+                  <div className="">Subtotal</div>
+                </div>
                 </div>
               </div>
 
               {cartItems.length > 0 ? (
                 cartItems.map((item) => (
-                  <div key={item.id} className="flex flex-col lg:flex-row items-center border-b pb-4 mb-4 justify-between">
-                    <div className="w-full lg:w-2/12 mb-4 lg:mb-0">
+                  <div key={item.id} className="flex  lg:flex-row items-center border-b pb-4 mb-4">
+                    <div className="w-4/12 sm:w-2/12 ml-[-40px] md:ml-0 mb-4 lg:mb-0">
                       <img
                         src={item.image}
                         alt={item.description}
-                        className="w-full h-auto object-cover rounded"
+                        className=" w-full h-auto object-cover rounded"
                       />
                     </div>
-                    <div className="w-full lg:w-4/12 pl-4 mb-4 lg:mb-0">
-                      <h3 className="text-md font-semibold">{item.name}</h3>
-                      <p className="text-gray-500 text-sm">{item.description}</p>
-                      <button className="text-red-500 mt-2" onClick={() => removeFromCart(item.id)}>
+                    <div className="w-4/12 md:pl-4 mb-4 lg:mb-0 ml-[-20px]">
+                      <h3 className=" text-sm sm:text-md font-semibold">{item.name}</h3>
+                      <p className="text-gray-500 text-[11px] sm:text-sm">{item.description}</p>
+                      <button className="text-red-500 mt-2 text-[11px] sm:text-base " onClick={() => removeFromCart(item.id)}>
                         Remove
                       </button>
                     </div>
-                    <div className="w-full lg:w-2/12 flex items-center space-x-4 mb-4 lg:mb-0">
+                    <div className="w-2/12 flex items-center space-x-1 md:space-x-4 mb-4 lg:mb-0">
                       <button
-                        className="px-2 py-1 border rounded"
+                        className="px-1 sm:px-2 py-1 border rounded"
                         onClick={() => decreaseQuantity(item.id)}
                       >
                         -
                       </button>
-                      <span>{item.quantity}</span>
+                      <span className='text-[13px] sm:text-base'>{item.quantity}</span>
                       <button
-                        className="px-2 py-1 border rounded"
+                        className="px-1 sm:px-2 py-1 border rounded"
                         onClick={() => increaseQuantity(item.id)}
                       >
                         +
                       </button>
                     </div>
-                    <div className="w-full lg:w-2/12 text-center text-lg font-semibold mb-4 lg:mb-0">
+                    
+                    <div className="w-2/12 text-center text-[10px] sm:text-lg font-semibold mb-4 lg:mb-0 pl-1 sm:pl-8 lg:pl-0 ">
                       ₦{item.price.toFixed(2)}
                     </div>
-                    <div className="w-full lg:w-2/12 text-center text-lg font-semibold">
+                    <div className="w-2/12 text-center text-[10px] sm:text-lg font-semibold mb-4 lg:mb-0 pl-4 sm:pl-12 lg:pl-0 ">
                       ₦{(item.price * item.quantity).toFixed(2)}
                     </div>
                   </div>
@@ -90,11 +94,11 @@ export const CartPage = () => {
               )}
             </div>
           </div>
-          <div className="col-span-1 lg:col-span-4">
+          <div className="col-span-1 md:col-span-8 xl:col-span-4  ">
             {cartItems.length > 0 && (
-              <div className="bg-white shadow-md rounded-md p-4">
+              <div className="bg-white shadow-md rounded-lg p-6 xl:p-12">
                 <h2 className="text-lg font-semibold mb-4">Cart Summary</h2>
-                <div className="mb-4">
+                <div className="">
                   <label className="flex items-center space-x-2 border-solid border-2 p-3 rounded-md">
                     <input type="radio" name="shipping" value="pickup" checked className="form-radio" />
                     <span>Pick Up</span>
@@ -112,8 +116,8 @@ export const CartPage = () => {
                   <span className="text-lg font-semibold">Total</span>
                   <span className="text-lg font-semibold">₦{calculateTotal()}</span>
                 </div>
-                <Link to="/checkout">
-                  <button className="bg-orange-500 text-white w-full py-3 rounded-lg">
+                <Link to="/checkout" className=''>
+                  <button className="bg-orange-500 text-white w-full py-3 rounded-lg ">
                     Proceed to Checkout
                   </button>
                 </Link>
@@ -123,7 +127,7 @@ export const CartPage = () => {
         </div>
       </main>
 
-      <footer className="flex flex-col lg:flex-row bg-[#1D2026] text-white mt-8 p-6 rounded shadow w-full sm:w-11/12 gap-6 lg:gap-20">
+      <footer className="flex flex-col lg:flex-row bg-[#1D2026] text-white mt-8 p-6 rounded shadow w-full  gap-6 lg:gap-20">
         <div className="w-full lg:w-6/12">
           <h3 className="text-lg font-bold mb-2">About Goodness Bookstore</h3>
           <p>
