@@ -8,7 +8,7 @@
   return (
         <div>
 
-  <div className="  hidden md:flex  p-8 w-3/4  ml-28 mt-8 place-items-center space-x-8  ">
+  <div className="  hidden sm:flex  p-8 sm:w-full lg:w-10/12 xl:w-3/4 lg:ml-20 xl:ml-28  items-center space-x-5 lg:space-x-16 shadow-xl rounded-md ">
        
 
           <div className=" flex flex-col text-center place-items-center">
@@ -20,7 +20,7 @@
           </div>
           <div className=" flex flex-col text-center place-items-center">
           <img src={Globe} className="w-8"/>
-            <h2 className="text-lg font-bold">Adventure and Discovery</h2>
+            <h2 className="text-lg font-bold text-nowrap">Adventure and Discovery</h2>
             <p className="text-sm">Embark on an Adventure at our 
   Goodness Bookstore.
   Every Book is a New Journey</p>
@@ -40,7 +40,7 @@
   </div>
   
 
-<div className=" flex flex-col  ml-12   p-8 w-3/4  mt-8   md:hidden ">
+<div className=" flex flex-col  ml-12   p-8 w-3/4  mt-8 shadow-lg rounded-md  sm:hidden ">
        
 <div className="flex flex-col justify-center text-center place-items-center space-y-10 ">
 <div className=" ">

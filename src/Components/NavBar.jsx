@@ -11,6 +11,7 @@ import Mask from "../assets/mask-group.png";
 import Menu from "../assets/menu.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const slides = [
   {
@@ -78,7 +79,7 @@ const slides = [
                 selection has something for every reader.
               </p>
 
-              <button className=" w-full mb-12 bg-white text-[#FF6636] px-6 py-4 rounded-lg ">
+              <button className="w-full mb-12 bg-white text-[#FF6636] px-6 py-4 rounded-lg">
                 Shop Now
               </button>
             </div>
@@ -139,9 +140,9 @@ export const NavBar = () => {
 
   return (
     <section className="hero-section ">
-       <div className="fixed z-50">
-      <div className="block w-screen  sm:hidden">
-        <div className="relative  p-2">
+       <div className="relative z-10">
+      <div className="block w-screen  lg:hidden">
+        <div className="relative  p-2 bg-[#FFEEE8] ">
           {/* Hamburger icon */}
           <button
             onClick={toggleMenu}
@@ -154,16 +155,19 @@ export const NavBar = () => {
             )}
           </button>
 
-          <div className=""><button className="fixed right-[75px] top-10 transform -translate-y-1/2 text-gray-500 ">
+          <div className=""><button className="absolute right-[75px] top-10 transform -translate-y-1/2 text-gray-500 ">
               <i className="fas fa-heart border-solid border-gray-500 rounded-md border-2 p-2  bg-slate-100"></i>
             </button>
-            <button className="fixed right-[10px] top-10 transform -translate-y-1/2 ">
+
+            <Link to="/cart">
+            <button className="absolute right-[10px] top-10 transform -translate-y-1/2 ">
               <i className="fas fa-shopping-cart text-gray-500 border-solid border-gray-500 border-2  rounded-md p-2  bg-slate-100 "></i>
-            </button></div>
+            </button>
+            </Link></div>
 
           {/* Sidebar */}
           <div
-            className={`fixed top-10 left-0 h-full w-9/12 bg-[#FFEEE8] text-[#FF6636] transition-transform transform ${
+            className={`fixed top-10 left-0 h-full w-10/12 bg-[#FFEEE8] text-[#FF6636] text-nowrap transition-transform transform ${
               isOpen ? "translate-x-0" : "-translate-x-full"
             }`}
           >

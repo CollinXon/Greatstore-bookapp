@@ -77,15 +77,18 @@ const BookListing = () => {
 
   return (
     <div>
+
+        <div className=" mt-12 flex justify-center items-center "><div className="border-t-2 border-[#1D2026] w-5/12"></div><span className="pl-6 pr-6 font-md text-nowrap">Best Seller</span><div className="border-b-2 border-[#1D2026] w-5/12 "></div></div>
       
       {loading && <h1 className="loader"></h1>}
-      <div className=" bg-primary grid grid-cols-2  md:grid-cols-5 gap-6  mt-12 justify-evenly">
+      <div className=" bg-primary grid grid-cols-2  lg:grid-cols-5 gap-12  lg:gap-6  mt-12 justify-evenly">
+        
         {products.slice(startIndex, endIndex).map((product, index) => (
           <div key={index} className="  border p-6 rounded-lg shadow-lg  ">
             <img
               src={product.image}
               alt={product.description}
-              className="h-80 w-full object-cover"
+              className=" h-48  xl:h-80 w-full object-cover"
             />
             <div className="ml-[-20px] md:ml-[-16px]">
               <h3 className="text-[12px] md:text-md text-nowrap font-bold ">
@@ -106,9 +109,9 @@ const BookListing = () => {
           </div>
         ))}
         {/* Pagination */}
-        <div className="ml-9 flex mr-[-300px] mt-12 bg-slate-100 md:hidden">
+        <div className="ml-9 flex mr-[-300px] sm:justify-center mt-12 bg-slate-100 pb-10 lg:hidden">
           <button
-            className="bg-white px-4 py-2 rounded-md border-solid border-2 border-gray-400 "
+            className="bg-white p-5 rounded-md border-solid border-2 border-gray-300 "
             onClick={handlePrevPage}
             disabled={currentPage === 1}
           >
@@ -117,7 +120,7 @@ const BookListing = () => {
           {Array.from({ length: totalPages }, (_, index) => (
             <button
               key={index}
-              className={`px-4 py-2 text-[#FF6636] border-solid border-2 border-gray-400   ${
+              className={`px-4 py-2 text-[#FF6636] border-solid border-2 border-gray-300   ${
                 currentPage === index + 1
                   ? "text-white bg-[#FF6636]"
                   : "bg-white"
@@ -128,7 +131,7 @@ const BookListing = () => {
             </button>
           ))}
           <button
-            className="bg-white px-4 py-2 rounded-md border-solid border-2 border-gray-400 "
+            className="bg-white px-4 py-2 rounded-md border-solid border-2 border-gray-300 "
             onClick={handleNextPage}
             disabled={currentPage === totalPages}
           >
@@ -136,9 +139,9 @@ const BookListing = () => {
           </button>
         </div>
 
-        <div className="hidden md:flex ml-[500px]  mt-12 bg-slate-100">
+        <div className="hidden lg:flex ml-[400px] xl:ml-[500px]  mt-12 bg-slate-100 pb-14">
           <button
-            className="bg-white px-4 py-2 rounded-md border-solid border-2 border-gray-400 "
+            className="bg-white p-3 rounded-md border-solid border-2 border-gray-200 "
             onClick={handlePrevPage}
             disabled={currentPage === 1}
           >
@@ -147,7 +150,7 @@ const BookListing = () => {
           {Array.from({ length: totalPages }, (_, index) => (
             <button
               key={index}
-              className={`px-4 py-2 text-[#FF6636] border-solid border-2 border-gray-400   ${
+              className={`p-3 text-[#FF6636] border-solid border-2 border-gray-200   ${
                 currentPage === index + 1
                   ? "text-white bg-[#FF6636]"
                   : "bg-white"
@@ -158,7 +161,7 @@ const BookListing = () => {
             </button>
           ))}
           <button
-            className="bg-white px-4 py-2 rounded-md border-solid border-2 border-gray-400 "
+            className="bg-white p-3 rounded-md border-solid border-2 border-gray-200 "
             onClick={handleNextPage}
             disabled={currentPage === totalPages}
           >
